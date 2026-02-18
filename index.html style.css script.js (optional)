@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayaworks Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mayaworks Hub</h1>
+        <p>Your Online Service Hub</p>
+    </header>
+
+    <main>
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>WhatsApp Integration</li>
+                <li>Web Tools</li>
+                <li>Client Support</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:support@mayaworks.com">support@mayaworks.com</a></p>
+            <p>WhatsApp: <a href="https://wa.me/6011162433475" ">+8801767780537</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Mayaworks Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
