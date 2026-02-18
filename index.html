@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MayaWorks Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f7f7f7, #e0f7fa);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #00796b;
+            color: white;
+            padding: 30px 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p.subtitle {
+            margin: 5px 0 0 0;
+            font-size: 18px;
+            color: #b2dfdb;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 30px 10px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin: 15px;
+            padding: 20px;
+            width: 260px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #00796b;
+        }
+
+        .card ul {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .card button {
+            padding: 10px 18px;
+            margin: 8px 4px;
+            background-color: #00796b;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .card button:hover {
+            background-color: #004d40;
+        }
+
+        footer {
+            margin: 40px 0 20px 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        @media(max-width: 600px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>MayaWorks Hub</h1>
+    <p class="subtitle">মায়া ওয়ার্কস হাব</p>
+</header>
+
+<section class="services">
+
+    <div class="card">
+        <h3>Our Services</h3>
+        <ul>
+            <li>Facebook Promotion</li>
+            <li>Logo Design</li>
+            <li>YouTube Video Creator</li>
+            <li>TikTok/Social Media Video Creator</li>
+            <li>Sound Generator</li>
+            <li>Image Creator</li>
+            <li>AI Story / Article Generator</li>
+            <li>AI Music Generator</li>
+            <li>Small Online Tasks / Microtasks</li>
+        </ul>
+        <p>Contact Us via:</p>
+        <button onclick="contactWhatsApp1()">WhatsApp (Malaysia)</button>
+        <button onclick="contactWhatsApp2()">WhatsApp (Bangladesh)</button>
+        <button onclick="contactEmail()">Email</button>
+    </div>
+
+</section>
+
+<script>
+function contactWhatsApp1() {
+    window.location.href = "https://wa.me/601162433475";
+}
+
+function contactWhatsApp2() {
+    window.location.href = "https://wa.me/8801767780537";
+}
+
+function contactEmail() {
+    window.location.href = "mailto:dh121277@gmail.com";
+}
+</script>
+
+<footer>
+    &copy; 2026 MayaWorks Hub
+</footer>
+
+</body>
+</html>
